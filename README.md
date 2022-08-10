@@ -2,6 +2,7 @@
 
 This Mathematica notebook is an efficient (O[N]) implementation of an algorithm finding  differences of two lists of equal lengths along with the corresponding parity sign
 Notes:
+- Each lists must contain no repetitions within itself
 - a & b are the input lists, while c & d are the output lists. In set notation c = a -b; d = b - a;
 - Their elements can themselves be lists.
 - Parity sign is defined as the parity (+ even, - odd) of the total number  of permutations in both lists needed to reduce them to their intersection with the operation of removing the shared elements on the same position
